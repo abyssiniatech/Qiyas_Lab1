@@ -26,7 +26,17 @@ class Program
 {
     static void Main(string[] args)
     {
-        string Regin="Addis Ababa";
-        Console.WriteLine(Regin.ToUpper());
+        string studentname="abeba";
+        string studentId="stu_001";
+        int enrolmentCout = 3;
+        decimal grantAmount=199.99m;
+        DateTime Enrolleddt =DateTime.UtcNow;
+
+        // excute the above variables
+        Console.WriteLine($"My Name is : ${studentname}");
+        Console.WriteLine($"My id Number : ${studentId}");
+        Console.WriteLine($"No of enrolment : ${enrolmentCout}");
+        Console.WriteLine($"grantAmount : ${grantAmount}");
+        Console.WriteLine($"EnrolmentDate was : ${Enrolleddt}");
     }
 }
